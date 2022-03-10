@@ -18,15 +18,20 @@ const Header = ({ selectionView }: HeaderTypes) => {
     setQuery("");
   };
 
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    handleSearch(query);
+  };
+
   return (
     <S.Wrapper>
-      <S.InputWrapper>
+      <S.Form onSubmit={handleSubmit}>
         <Input
           value={query}
           onChange={(value: string) => setQuery(value)}
           placeholder="Type for search..."
         />
-      </S.InputWrapper>
+      </S.Form>
       <S.AsideWrapper>
         <Select onChange={selectionView} />
         <Button onClick={() => handleSearch(query)} buttonType="rounded">

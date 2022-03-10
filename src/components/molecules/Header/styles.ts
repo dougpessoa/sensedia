@@ -9,7 +9,7 @@ export const Wrapper = styled.div`
   gap: 20px;
 `;
 
-export const InputWrapper = styled.div`
+export const Form = styled.form`
   width: 60%;
 
   @media (max-width: 1000px) {
