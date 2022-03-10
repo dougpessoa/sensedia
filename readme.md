@@ -21,19 +21,19 @@ Storybook: https://bit.ly/3i36FYx
 
 ## Rodando localmente
 
-Clone o projeto
+Clone o projeto:
 
 ```bash
   git clone https://github.com/dougpessoa/sensedia.git
 ```
 
-Entre no diretório do projeto
+Entre no diretório do projeto:
 
 ```bash
   cd sensedia
 ```
 
-Instale as dependências
+Instale as dependências:
 
 ```bash
   npm install
@@ -41,7 +41,7 @@ Instale as dependências
   yarn
 ```
 
-Inicie o servidor
+Inicie o servidor:
 
 ```bash
   npm run dev
@@ -52,7 +52,7 @@ Inicie o servidor
 Abra no navegador http://localhost:3000
 ## Rodando os testes
 
-Para rodar os testes, rode o seguinte comando
+Para rodar os testes, rode o seguinte comando:
 
 ```bash
   npm run test
@@ -63,7 +63,7 @@ Para rodar os testes, rode o seguinte comando
 
 ## Rodando storybook
 
-Para rodar o storybook, rode o seguinte comando
+Para rodar o storybook, rode o seguinte comando:
 
 ```bash
   npm run storybook
@@ -77,7 +77,7 @@ Para rodar o storybook, rode o seguinte comando
 Para demonstração de competências, foi utilizado o padrão
 de projeto: Atomic Design. 
 
-Abaixo a estrutura em árvore do projeto
+Abaixo a estrutura em árvore do projeto.
 
 ```
 src
@@ -108,7 +108,7 @@ Foi utilizado a biblioteca do Ant Design para a construção dos componentes de 
 
 ## Feedback
 
-Se tiver algum feedback, me envie por: douglaspereira1@outlook.com
+Se tiver algum feedback, me envie por: douglaspereira1@outlook.com.
 
 ___
 
@@ -116,7 +116,7 @@ ___
 
 Software of competences presentation realizing with lorem ipsum content.
 
-Projet: https://sensedia.vercel.app/
+Project: https://sensedia.vercel.app/
 
 Storybook: https://bit.ly/3i36FYx
 
@@ -132,19 +132,19 @@ Storybook: https://bit.ly/3i36FYx
 
 ## Run local
 
-Clone the project
+Clone the project:
 
 ```bash
   git clone https://github.com/dougpessoa/sensedia.git
 ```
 
-Go to project dir
+Go to project dir:
 
 ```bash
   cd sensedia
 ```
 
-Intall the dependencies
+Intall the dependencies:
 
 ```bash
   npm install
@@ -152,7 +152,7 @@ Intall the dependencies
   yarn
 ```
 
-Starts the server
+Starts the server:
 
 ```bash
   npm run dev
@@ -163,7 +163,7 @@ Starts the server
 Open on browser http://localhost:3000
 ## Run tests
 
-To run tests, run the follow command
+To run tests, run the follow command:
 
 ```bash
   npm run test
@@ -174,7 +174,7 @@ To run tests, run the follow command
 
 ## Run storybook
 
-To run storybook, run the follow command
+To run storybook, run the follow command:
 
 ```bash
   npm run storybook
@@ -184,9 +184,9 @@ To run storybook, run the follow command
 
 ## Structure
 
-For competences demonstration was used: Atomic Design 
+For competences demonstration was used: Atomic Design.
 
-The tree structure of project below
+The tree structure of project below.
 
 ```
 src
@@ -217,4 +217,4 @@ Ant Design was used to build table and pagination components for expedite the pr
 
 ## Feedback
 
-If you have any feedback, send me by: douglaspereira1@outlook.com
+If you have any feedback, send me by: douglaspereira1@outlook.com.
