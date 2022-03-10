@@ -6,6 +6,7 @@
 Software de apresentação de competências realizado com lorem ipsum no conteúdo.
 
 Projeto online: https://sensedia.vercel.app/
+Storybook: https://bit.ly/3KxAoFl
 
 ## Dependências
 - Next.js
