@@ -14,7 +14,8 @@
     "page": "yarn plop --plopfile generators/plopPage.js",
     "template": "yarn plop --plopfile generators/plopTemplate.js",
     "storybook": "start-storybook -p 6006 --no-dll -s ./public",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=005dd63bff5a"
   },
   "dependencies": {
     "antd": "^4.19.1",
@@ -48,6 +49,7 @@
     "axios-mock-adapter": "^1.20.0",
     "babel-loader": "^8.2.3",
     "babel-plugin-styled-components": "^2.0.5",
+    "chromatic": "^6.5.1",
     "eslint": "^7.32.0",
     "eslint-config-next": "12.1.0",
     "eslint-config-prettier": "^8.4.0",
