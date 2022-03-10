@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import * as S from "./styles";
 
 export type InputTypes = {
@@ -7,14 +8,21 @@ export type InputTypes = {
 };
 
 const Input = ({ placeholder, value, onChange }: InputTypes) => {
+  const [inputValue, setInputValue] = useState(value);
+
+  useEffect(() => {
+    setInputValue(value);
+  }, [value]);
+
   return (
     <S.Wrapper
       data-testid="sensedia-input"
       placeholder={placeholder}
-      onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
-        onChange && onChange(e.target.value)
-      }
-      value={value}
+      onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
+        onChange && onChange(e.target.value);
+        setInputValue(e.target.value);
+      }}
+      value={inputValue}
     />
   );
 };

@@ -6,6 +6,7 @@
 Software de apresentação de competências realizado com lorem ipsum no conteúdo.
 
 Projeto online: https://sensedia.vercel.app/
+
 Storybook: https://bit.ly/3KxAoFl
 
 ## Dependências
@@ -99,6 +100,10 @@ Os Contexts são os arquivos que contém as chamadas API, gerindo os estados glo
 ### Testes Unitários dos componentes
 
 Os testes podem ser encontrados dentro dos atoms. 
+
+### Ant Design 
+
+Foi utilizado a biblioteca do Ant Design para a construção dos componentes de tabela e de paginação para agilizar no processo. Os outros componentes foram realizados à mão.
 
 
 ## Feedback
