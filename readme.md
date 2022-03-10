@@ -118,7 +118,7 @@ Software of competences presentation realizing with lorem ipsum content.
 
 Projet: https://sensedia.vercel.app/
 
-Storybook: https://bit.ly/3KxAoFl
+Storybook: https://bit.ly/3i36FYx
 
 ## Dependencies
 - Next.js
