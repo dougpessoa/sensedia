@@ -1,0 +1,15 @@
+import { renderWithTheme } from "utils/tests/helpers";
+import { cleanup } from "@testing-library/react";
+
+import {{pascalCase name}} from ".";
+
+/** yarn test src/components/atoms/{{pascalCase name}}/test.tsx  */
+
+afterEach(cleanup);
+describe("<{{pascalCase name}} />", () => {
+  it("should render the component", () => {
+    const { container } = renderWithTheme(<{{pascalCase name}} label="{{pascalCase name}}" />);
+
+    expect(container).toBeInTheDocument();
+  });
+});

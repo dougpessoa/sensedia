@@ -1,0 +1,15 @@
+import * as S from "./styles";
+
+export type {{pascalCase name}}Types = {
+  label?: string;
+};
+
+const {{pascalCase name}} = ({ label = "{{pascalCase name}}" }: {{pascalCase name}}Types) => {
+  return (
+    <S.Wrapper>
+      <h1>{label}</h1>
+    </S.Wrapper>
+  );
+};
+
+export default {{pascalCase name}};
