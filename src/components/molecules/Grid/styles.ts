@@ -9,10 +9,21 @@ export const Wrapper = styled.div`
 export const Cards = styled.div`
   width: 100%;
   margin-top: 30px;
-  display: flex;
-  justify-content: stretch;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 20px;
+
+  @media (max-width: 1172px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  @media (max-width: 888px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (max-width: 629px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const Footer = styled.div`

@@ -24,6 +24,10 @@ export const AntdWrapper = styled.div`
     align-items: center;
   }
 
+  .ant-table-small .ant-table-thead > tr > th {
+    height: 48px;
+  }
+
   .ant-pagination {
     display: flex;
   }
